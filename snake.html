@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      html {
+        border: 20px solid white;
+        background-color: blue;
+      }
+      h1 {
+        color: #ffd300;
+        font-size: 60px;
+        text-shadow: 4px 4px black;
+      }
+      p {
+          color: white;
+          font-size: 20px;
+      }
+      .center {
+        text-align: center;
+      }
+      nav {
+        float: left;
+        width: 8%;
+        border: 20px solid white;
+        background-color: black;
+  
+      }
+      ul {
+          color: white;
+          font-size: 20px;
+          text-align: left;
+      }
+      main {
+        float: right;
+        width: 75%;
+        text-align: center;
+      }
+      footer {
+        text-align: center;
+      }
+      a {
+        color: white;
+      }
+      </style>
+    <title>Image and Sound</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="TCA.html">TCA</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="https://cardboardknox.bandcamp.com/">Bandcamp</a></li>
+        <li><a href="Coming Soon.html">Coming Soon</a></li> 
+        <li><a class="nava" href="snake.html">Image of the day</a></li>
+
+      </ul>
+    </nav>
+    <main>
+      <br><br><br><br>
+      <img id="myImage" src="Click-the-image/Icon_for_Channel.png" width="500" height="500" />
+    <audio id="mySound" src="Click-the-image/37-win.wav"></audio>
+    
+    <script>
+      const image = document.getElementById("myImage");
+      const sound = document.getElementById("mySound");
+      
+      image.addEventListener("click", function() {
+        sound.play();
+        alert("You clicked the image!");
+      });
+    </script>
+    </main>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </body>
+</html>
